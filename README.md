@@ -7,5 +7,10 @@ I want to create a website in which users can view and learn about different key
 
 The reason I want to make with website is that I’ve always wanted an easier way to test different key switches without needing to constantly go from website to website from video to video, being able to access is all in a hub would save me and many others lots of time and frustration that comes with trying to figure out what key switch they want.
 
+![alt text](https://i.imgur.com/wmvGc9t.png)
+
+![alt text](https://i.imgur.com/qYUwXII.png)
+
+![alt text](https://i.imgur.com/nQS9yKW.png)
 
 
