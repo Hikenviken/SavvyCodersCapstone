@@ -1,5 +1,5 @@
 :root{
-  --background: #596a78;
+  --background: #acb5bd;
   --background-variant: #a8b4b5;
   --detailing: #282828;
   --detailing-variant: black;
@@ -11,7 +11,42 @@
   --secondary-border: solid var(--detailing-variant) 3px;
 }
 
-/* Begining of front page */
+* {
+  box-sizing: border-box;
+}
+#userInput{
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+/* Cherry Switches Start */
 
 body {
   margin: 40px;
@@ -29,6 +64,7 @@ body {
   background-color: white;
   color: white;
   border: black;
+  margin: auto;
 }
 
 .box {
@@ -44,7 +80,7 @@ body {
   align-items: center;
 }
 
-/* End of front page */
+/* Cherry Switches End */
 
 
 
