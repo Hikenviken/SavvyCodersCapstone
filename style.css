@@ -68,6 +68,27 @@ body {
   overflow: hidden;
 }
 
+div .name {
+position: absolute;
+bottom: 4%;
+}
+
+.wrapper a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.CherryBlue {
+  background-image: url("./assets/CHERRY-MX-BLUE-SWITCH__185x185.jpeg")
+}
+
+.bigbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+
+}
 .box {
   background-color: whitesmoke;
   color: black;
@@ -79,6 +100,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 body {
@@ -87,11 +109,27 @@ body {
 
 /* Cherry Switches End */
 
+.blue {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  cursor: pointer;
+  border: solid black 3px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 185px;
+}
 
+.video {
+  border: 3px solid black;
+}
 
-
-
-
+.LINK {
+  border: 3px solid black;
+}
 
 /* .key {
 border: 4px solid black;
