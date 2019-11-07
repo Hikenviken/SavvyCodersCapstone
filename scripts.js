@@ -24,7 +24,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
   Array.from(boxes, function(box) {
     box.addEventListener("click", function() {
-      alert(this.classList[1]);
     });
   });
 });
