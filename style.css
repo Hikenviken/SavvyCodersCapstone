@@ -65,6 +65,7 @@ body {
   color: white;
   border: black;
   margin: auto;
+  overflow: hidden;
 }
 
 .box {
